@@ -9,6 +9,7 @@
     "build:gh": "tsc -b && vite build --mode gh",
     "lint": "eslint .",
     "preview": "vite preview",
+    "preview": "vite preview",
     "preview:gh": "vite preview --mode gh",
     "predeploy": "npm run build",
     "predeploy:gh": "npm run build:gh",

@@ -228,7 +228,6 @@ export const calculateMinimumSheetThickness = (
 };
 
 export const getNominalSheetThicknessRecommendation = (minimumThickness: number): number => {
-  const candidates = [6, 9, 10, 13, 19, 25, 32, 40, 50];
 
   if (minimumThickness > 37.99) return 50;
   if (minimumThickness > 29.99) return 40;
